@@ -5,3 +5,7 @@
 ```
 firewall-cmd --permanent --add-port-80/tcp
 ```
+- check nginx.conf file you have written is okay
+```
+nginx -t -c {path to nginx.conf}
+```
